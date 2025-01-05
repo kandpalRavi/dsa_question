@@ -17,7 +17,7 @@ function rotateNodeToLeft(head,k){
     }
     if(!curr) return head;
     let kthNode = curr;
-    while(curr.next){
+    while(curr.next ){
         curr = curr.next;
     }
     curr.next = head;
